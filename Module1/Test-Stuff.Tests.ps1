@@ -1,9 +1,9 @@
-﻿$here = Split-Path -Parent $MyInvocation.MyCommand.Path
-$sut = (Split-Path -Leaf $MyInvocation.MyCommand.Path).Replace(".Tests.", ".")
+﻿$here = Split-Path -Parent -Path $MyInvocation.MyCommand.Path
+$sut = (Split-Path -Leaf -Path $MyInvocation.MyCommand.Path).Replace(".Tests.", ".")
 . "$here\$sut"
 
-Describe "Test-Stuff" {
-    It "does something useful" {
+Describe -Name "Test-Stuff" -Fixture {
+    It -Name "does something useful" -Test {
         $true | Should Be $false
     }
 }

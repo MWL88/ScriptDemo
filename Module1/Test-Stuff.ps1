@@ -2,7 +2,7 @@
 {
     param
     (
-    $a#=$null
+    $a=$null
     )
 
     Write-Output -InputObject $a
