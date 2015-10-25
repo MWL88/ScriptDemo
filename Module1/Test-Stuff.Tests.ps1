@@ -4,6 +4,6 @@ $sut = (Split-Path -Leaf -Path $MyInvocation.MyCommand.Path).Replace(".Tests.", 
 
 Describe -Name "Test-Stuff" -Fixture {
     It -Name "does something useful" -Test {
-        $true | Should Be $false
+        Test-Stuff -a "test" | Should Be "OK"
     }
 }
