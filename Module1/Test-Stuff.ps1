@@ -5,7 +5,7 @@
     $a=$null
     )
 
-    if ($a -eq $null)
+    if ($null -eq $a)
     {
         $a = "OK"
     }
@@ -16,7 +16,7 @@
 
     Write-Debug -Message "debug"
 
-    Write-Output -InputObject $a
+    #Write-Output -InputObject $a
 
     return $a
 }
