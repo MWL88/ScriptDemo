@@ -1,1 +1,1 @@
-powershell.exe -ExecutionPolicy "ByPass" -File "C:\Users\Mark\Documents\Code\dotest.ps1" 
+powershell.exe -ExecutionPolicy "ByPass" -File "C:\Users\Mark\Documents\Code\ScriptDemo\dotest.ps1" 
