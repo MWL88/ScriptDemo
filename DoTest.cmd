@@ -1,0 +1,1 @@
+powershell.exe -file .\dotest.ps1 -executionpolicy remotesigned
