@@ -18,6 +18,8 @@
 
     Write-Debug -Message "debug"
 
+    Write-Verbose -Message "Another minor change"
+
     #Write-Output -InputObject $a
 
     return $a
