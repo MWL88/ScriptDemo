@@ -22,6 +22,8 @@
 
     Write-Debug -Message "debug change"
 
+    Write-Debug -Message "Another debug change"
+
     Write-Output -InputObject $a
 
     Write-Verbose -Message "Another minor change"
