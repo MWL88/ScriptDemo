@@ -24,5 +24,7 @@
 
     Write-Output -InputObject $a
 
+    Write-Verbose -Message "Another minor change"
+
     return $a
 }
