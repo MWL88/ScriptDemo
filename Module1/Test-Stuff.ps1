@@ -18,6 +18,8 @@
 
     Write-Debug -Message "debug"
 
+    Write-Debug -Message "debug change"
+
     #Write-Output -InputObject $a
 
     return $a
