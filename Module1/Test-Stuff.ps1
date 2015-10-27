@@ -26,5 +26,7 @@
 
     Write-Debug -Message "debug change"
 
+    Write-Debug -Message "another debug change"
+
     return $a
 }
