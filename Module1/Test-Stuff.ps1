@@ -21,7 +21,7 @@
     Write-Warning -Message "Breaking change"
     Write-Output -InputObject $a
 
-    Write-Debug -Message "Debug change"
+    Write-Debug -Message "Another debug change"
 
     return $a
 }
