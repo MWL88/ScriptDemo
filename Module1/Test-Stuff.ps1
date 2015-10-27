@@ -10,6 +10,8 @@
         $a = "OK"
     }
 
+    Write-Verbose -Message "Minor change"
+    
     Write-Verbose -Message "verbose"
 
     Write-Warning -Message "warning"
