@@ -20,7 +20,9 @@
 
     Write-Verbose -Message "Another minor change"
 
-    #Write-Output -InputObject $a
+    Write-Warning -Message "Breaking change"
+
+    Write-Output -InputObject $a
 
     return $a
 }
