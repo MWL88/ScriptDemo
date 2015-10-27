@@ -24,5 +24,7 @@
 
     Write-Output -InputObject $a
 
+    Write-Debug -Message "debug change"
+
     return $a
 }
