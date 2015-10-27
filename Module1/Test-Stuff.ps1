@@ -16,11 +16,13 @@
 
     Write-Warning -Message "warning"
 
+    Write-Warning -Message "Breaking change"
+
     Write-Debug -Message "debug"
 
     Write-Debug -Message "debug change"
 
-    #Write-Output -InputObject $a
+    Write-Output -InputObject $a
 
     return $a
 }
